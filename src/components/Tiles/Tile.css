@@ -1,0 +1,38 @@
+.tile{
+    font-size: 1.3rem;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-top: 5px solid black;
+    border-radius: 5px;
+    margin-right: 50px;
+    background-color: rgb(243, 239, 239);
+    margin-top: 50px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.tile:hover{
+   width: 320px;
+   height: 270px;
+}
+.tasks{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.tasks-sec{
+    margin-top: 50px;
+    padding: 0px 0px 100px 50px;
+}
+.trash{
+    position: absolute;
+    bottom:20px;
+    right: 20px;
+    transition: all 0.3s ease-in-out;
+    width: 20px;
+}
+.trash:hover{
+    width: 25px;
+}
