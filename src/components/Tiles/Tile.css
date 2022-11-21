@@ -15,6 +15,7 @@
 .tile:hover{
    width: 320px;
    height: 270px;
+   border-top: 10px solid black;
 }
 .tasks{
     display: flex;
@@ -32,7 +33,28 @@
     right: 20px;
     transition: all 0.3s ease-in-out;
     width: 20px;
+    cursor :pointer;
 }
 .trash:hover{
     width: 25px;
+}
+
+#date{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 20px;
+}
+input{
+    border: none;
+    background: transparent;
+    border-bottom:2px solid black;
+    caret-color: black;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 10px 2px;
+    font-weight: bold;
+}
+input:focus{
+    outline: none;
 }
